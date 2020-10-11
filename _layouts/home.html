@@ -1,13 +1,12 @@
 ---
 layout: default
 ---
-@charset: "UTF-8";
 <body>
     <header><img class="logo" src="{{ '/assets/images/logo.jpeg' | relative_url }}"></header>
     <main>
         <ul>
         {% for post in site.posts %}
-            <li><a href="{{ post.url | relative_url }}">{{ post.title | relative_url }}</a></li>
+            <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
         {% endfor %}
         </ul>
     </main>
