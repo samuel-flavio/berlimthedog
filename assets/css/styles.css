@@ -3,6 +3,10 @@ body {
     color: green;
     font-size: 22px;
 }
+.logo {
+    height: 30px;
+    size: 120px;
+}
 .imagem_principal{
     width: 33%;
 }
