@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<body>
+    <header><img src="/assets/images/logo.jpg" width=10%></header>
+    <main>
+        <ul>
+        {% for post in site.posts %}
+            <li><a href="{{ post.url }} ">{{ post.title }}</a></li>
+        {% endfor %}
+        </ul>
+    </main>
+    <footer>
+        <p>Volte sempre Aumigo</p>
+        <img class="imagem_principal" src="/assets/images/berlim.jpeg">
+    </footer>
+</body>
