@@ -1,0 +1,39 @@
+body {
+    size: 940px;
+    color: green;
+    font-size: 22px;
+}
+.imagem_principal{
+    width: 33%;
+}
+footer {
+    width: 100%;
+    text-align: center;
+}
+.foto_footer {
+    width: 50%;
+    border: 4px solid black;
+    display: block;
+    margin: 0 auto;
+}
+.introducao {
+    border: 2px solid green;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.umpoucodemim {
+    width: 20%;
+    margin: 0 auto;
+    border: 4px solid black;
+    display: block;
+}
+.legenda{
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    body, .imagem_principal, footer, .foto_footer, .umpoucodemim {
+        width: auto;
+    }
+}
